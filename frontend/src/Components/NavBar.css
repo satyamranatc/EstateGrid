@@ -1,0 +1,42 @@
+nav
+{
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;    
+    top: 0;
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+nav ul li{
+    transition: 0.4s;
+}
+
+nav ul li:hover
+{
+    padding: 0.5rem 1rem;
+    background-color: #3f00de;
+    color: white;
+    border-radius: 1rem;
+}
+nav ul li:active
+{
+   transform: scale(0.9);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

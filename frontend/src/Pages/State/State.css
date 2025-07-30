@@ -1,0 +1,77 @@
+#StatePage
+{
+    min-height: 100vh;
+    height: fit-content;
+    padding: 1rem 2rem;
+}
+
+#StateHeader
+{
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+
+}
+
+#StateHeader h2
+{
+    width: fit-content;
+    font-weight: 400;
+    padding-bottom: .4rem;
+    border-bottom: 3px solid #3f00de;
+}
+
+#StateGrid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: .7rem;
+    row-gap: 1rem;
+}
+
+.StateCard
+{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.StateCard img
+{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.StateCard h3
+{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400;
+}
+
+.StateCard p
+{
+    padding: 1rem;
+    font-size: 1rem;
+    color: gray;
+    font-weight: 300;
+}
+
+.StateCard button
+{
+    margin-left: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #3f00de;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
